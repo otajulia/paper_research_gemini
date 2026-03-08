@@ -1,0 +1,1204 @@
+﻿TITLE: Association between Comprehensive Physical Fitness Tiers and Annual Healthcare Expenditures: A Nationally Linked Study of Republic of Korean Adults and Older Adults
+Abstract
+Background
+Rapid population aging in the Republic of Korea has posed significant challenges to healthcare expenditure containment. Although physical fitness is a key indicator of health status, the economic implications of comprehensive fitness profiles—encompassing both health-related and skill-based components—remain poorly understood. This study examined the association between comprehensive physical fitness tiers and annual healthcare expenditures by linking the National Fitness Award 100 (NFA100) and National Health Insurance Service (NHIS) Claims databases, with the aim of providing empirical evidence to inform cost-effective public health policies.
+Methods
+We analyzed a linked dataset comprising 154,051 participants from the NFA100 and the NHIS Claims databases. Participants were categorized into four physical fitness tiers based on objective assessments. Fitness tiers were classified using age- and sex-standardized performance across health-related and skill-based components, with the “participation-only” group comprising individuals who completed assessments but did not meet minimum performance thresholds. Annual healthcare expenditures during the 12 months following the NFA100 assessment (index date) were modeled using multivariable generalized linear models (gamma distribution with log link), adjusting for socioeconomic status, body mass index, and chronic comorbidities. Adjusted mean expenditure differences versus Tier 1 were obtained using marginal standardization (recycled predictions). Medical costs were calculated in Korean won and converted to U.S. dollars (1 USD = 1,291.95 KRW).
+Results
+A significant inverse dose–response relationship was observed between physical fitness tiers and annual healthcare expenditures across all age groups (P for trend < 0.001). Compared with Tier 1, the participation-only group showed significantly higher adjusted annual expenditures (difference, USD): 87.35 in men (95% CI 45.47-128.26) and 86.31 in women (95% CI 42.42-130.21) among adults, and 444.16 in men (95% CI 360.82-527.49) and 427.93 in women (95% CI 357.16-498.72) among older adults. Among older adults, higher levels of skill-based fitness, including agility and functional mobility, were consistently associated with lower healthcare expenditures.
+Conclusions
+Higher levels of comprehensive physical fitness were robustly associated with lower healthcare expenditures. These findings suggest that skill-based fitness may serve as an important indicator of medical utilization in older populations and underscore the potential role of the National Fitness Award 100 as a population-level surveillance and prevention tool contributing to fiscal sustainability in rapidly aging societies.
+Keywords
+Comprehensive physical fitness, National fitness award 100, National Health Insurance Service Claims Database, Healthcare expenditure, Data linkage.
+Background
+Systematic reviews and meta-analyses consistently demonstrate that insufficient physical activity is associated with a higher prevalence of chronic diseases [1] and increased mortality [2]. While physical activity is essential for maintaining individual health, it also serves as a critical factor in reducing healthcare expenditure at the population level [4]. In Republic of Korea, the rapid increase in healthcare spending is driven by population ageing and the rising burden of chronic diseases, placing growing pressure on national health budgets. Accordingly, identifying strategies that simultaneously promote physical fitness and mitigate medical expenditures has become an urgent public health priority.
+Physical fitness, especially cardiorespiratory fitness, is often regarded as a “vital sign” of health [5]. While physical activity represents energy-consuming movements, physical fitness constitutes the resultant capacity developed through these activities. Despite national efforts, overall fitness levels among Korean adults remain low, with a rapid decline observed in the elderly. Data from the National Fitness Award100 (NFA100)—a nationwide government initiative that evaluates and prescribes individualized exercise programs—indicate that overall fitness levels among adults and older adults remain low, with a particularly rapid decline observed in the elderly(ref.). This deterioration raises concerns that declining fitness may further accelerate healthcare cost growth.
+Previous research has predominantly focused on the association between single fitness components, such as cardiorespiratory fitness or handgrip strength, and medical costs [6-9]. However, these fragmented approaches often fail to capture the holistic nature of physical health. There is a notable lack of evidence regarding how comprehensive fitness profiles—integrating both health-related and skill-based attributes—relate to actual administrative healthcare utilization at a national scale.
+To address this gap, the South Korean government implemented the NFA100, a nationwide initiative providing standardized, scientific evaluations of various fitness domains. While the NFA100 serves as a key infrastructure for health promotion, its direct economic implications have not been fully elucidated through large-scale administrative data. Therefore, this study aims to investigate the association between comprehensive physical fitness tiers and annual healthcare expenditures by linking the NFA100 database with the National Health Insurance Service (NHIS) claims data at a national scale for the first time. By clarifying the economic implications of maintaining physical fitness, this research provides essential empirical evidence for population-level health promotion and the development of evidence-based public health policies.
+Methods
+Study Design and Data Sources
+We conducted a retrospective cohort analysis using linked data from the National Fitness Award 100 (NFA100) and the National Health Insurance Service (NHIS) database from 2015 to 2022. The NFA100 is a government-led program that systematically assesses health-related and skill-related fitness components using standardized protocols. The NHIS database is a nationwide administrative repository that captures healthcare utilization and reimbursed expenditures for nearly the entire population of the Republic of Korea. Linking these large-scale datasets enabled a comprehensive examination of the association between objectively measured fitness levels and subsequent healthcare expenditures, minimizing biases related to self-reported measures and incomplete medical records.
+Record Linkage and Study Population
+Individual-level linkage between the NFA100 and NHIS datasets was executed using unique, de-identified personal identifiers under the strict supervision of both institutions to ensure data privacy. The initial study population comprised adults aged ≥19 years who completed baseline fitness testing between 2015 and 2022. To maintain data integrity, participants with incomplete fitness profiles or missing medical cost information were systematically excluded. For analytical precision, the cohort was stratified into two distinct age groups—adults (19–64 years) and older adults (≥65 years). This stratification is essential because the NFA100 employs different standardized assessment protocols tailored to the physiological characteristics of each age group. The integration of the NFA100—which evaluates both health-related (e.g., endurance, strength, flexibility) and skill-related (e.g., power, agility) components—with the NHIS claims database empowers a comprehensive examination of the association between objective fitness and healthcare expenditure. By leveraging these validated national repositories, this study minimizes potential biases inherent in self-reported measures or fragmented medical records.
+Grading criteria for physical fitness
+To determine these grades, the NFA100 utilizes a battery of standardized tests tailored to each age group. For adults, health-related fitness was assessed through body mass index (body composition), 20m shuttle run (cardiorespiratory endurance), handgrip strength (muscular strength), curl-up (muscular endurance), and sit-and-reach (flexibility). Skill-related fitness was evaluated using standing long jump (power) and 10m shuttle run (agility). For older adults, functional fitness components included the 6-minute walk test, 30-second chair stand, and the timed up-and-go (TUG) test, reflecting their specific physiological needs.
+Comprehensive fitness levels were stratified into four distinct tiers (Grade 1, 2, 3, and Participant-only) based on the NFA100 age-standardized criteria. For the adult cohort (19–64 years), Grade 1 was defined as achieving the ≥70th percentile in all health-related components and at least one skill-related component. Grade 2 and Grade 3 followed a similar logic, requiring the ≥50th and ≥30th percentiles, respectively, with at least one skill-related achievement. In contrast, the grading for older adults (≥65 years) required a more stringent and holistic fulfillment of fitness domains. To qualify for each grade, older adults had to meet the respective percentile thresholds (≥70th for Grade 1, ≥50th for Grade 2, and ≥30th for Grade 3) across all assessed components, including both health-related and skill-related fitness. This rigorous approach ensures that higher grades in the elderly reflect a well-rounded physical capacity across all functional domains. Individuals who did not meet these specific criteria for any grade were categorized as 'Participation-only.
+Assessment of healthcare expenditure
+The primary outcome was total annual healthcare expenditure, defined as the aggregate sum of both inpatient and outpatient medical costs. Annual healthcare expenditure was defined as the total reimbursed costs accrued during the 12 months following the index date (from the day after the NFA100 assessment). These data were extracted from the NHIS claims database, representing the most comprehensive record of direct medical spending in Korea. Total healthcare expenditures were normalized to 2022 Korean Won (KRW) using the medical care Consumer Price Index (CPI) for medical care [Kosis] to ensure longitudinal comparability, and subsequently converted to US Dollars (USD) based on the average 2022 exchange rate (1 USD = 1,291.95 KRW). To account for the characteristic right-skewed distribution of medical cost data, total expenditures were log-transformed for the regression analysis. This approach ensures statistical robustness by normalizing the variance. For practical interpretation and policy relevance, the predicted results were subsequently back-transformed to their original monetary scale. By leveraging this methodology, the study quantifies the association between physical fitness tiers and individual-level healthcare expenditures.
+Assessment of other covariates
+To isolate the independent association between physical fitness and healthcare expenditure, we adjusted for a comprehensive set of potential confounders. Demographic and socioeconomic factors, including age, sex, income level (categorized by insurance premium deciles), and residential region, were extracted from the NHIS database. Additionally, body mass index (BMI), lifestyle factors (e.g., aerobic and muscle-strengthening activities), and survey year were incorporated to account for individual physical characteristics and temporal trends, respectively.
+Furthermore, we identified baseline comorbidities—such as hypertension, diabetes mellitus, and cardiovascular diseases—using the International Classification of Diseases, 10th Revision (ICD-10) codes from the claims data. These specific covariates were selected based on their established associations with both physical fitness levels and healthcare utilization in previous literature [reference]. By mitigating these confounding effects, the study ensures a more robust evaluation of the direct relationship between objective fitness tiers and medical spending.
+Statistical analyses
+A total of 660,604 individuals participated in the NFA100 program during the study period. Through individual-level linkage with the NHIS database, a linkage rate of 66% was achieved. From this linked cohort, we systematically excluded individuals with missing healthcare expenditure records or those who had not completed the national health screening, the latter of which was essential for capturing baseline health covariates. Consequently, a final sample of 154,051 participants was included in the final analysis to examine the association between physical fitness tiers and healthcare expenditures.
+In descriptive analyses, continuous variables for participant characteristics and fitness components were presented as means (± standard deviation) and compared across fitness tiers using one-way ANOVA. Categorical variables were expressed as percentages and analyzed using Pearson’s chi-squared test to identify baseline differences between tiers.
+To estimate the marginal effect of fitness levels on annual healthcare expenditures, we employed Generalized Linear Models (GLM) with a gamma distribution and log link function, which effectively accounts for the right-skewed nature of medical cost data. Because the gamma model requires strictly positive costs, we verified that the proportion of zero annual healthcare expenditures was low (< %) and restricted the analysis to participants with positive expenditures; model-based estimates were than back-transformed and reported on the original currency scale (KRW) for interpretation. To identify demographic-specific patterns, the analysis was stratified by age group (Adults vs. Seniors) and further by sex (Male vs. Female). All reported estimates in the regression models were fully adjusted for a comprehensive set of potential confounders, including age, sex (in combined models), income deciles, residential region, body mass index (BMI), smoking status, alcohol consumption, physical activity (meeting physical activity guidelines), medical history (ICD-10-based comorbidities), and family history.
+To evaluate the dose-response relationship between fitness tiers and medical spending, linear trend tests (p-for-trend) were conducted across the four fitness categories (Tier 1 to Participation-only). For individual fitness components, we estimated the independent economic contribution of specific physical attributes while maintaining the same level of rigorous covariate adjustment. Multicollinearity was assessed using generalized variance inflation factors (GVIFs), and model fit was confirmed using the Pregibon link test. All analyses were performed using R version 4.3.2((R Foundation for Statistical Computing, Vienna, Austria), with significance defined as a two-sided p-value < 0.05.
+Results
+Characteristics of the adult participants by categories of age-standardized comprehensive physical fitness tiers
+The general characteristics of the study participants, stratified by age group and comprehensive physical fitness tiers, are summarized in Tables 1 (Adults) and 2 (Seniors).
+In the adult population, higher fitness tiers (Tier 1 and 2) were consistently associated with more favorable health profiles. Compared to the Participation-only group, individuals in Tier 1 exhibited significantly lower body mass index (BMI) and reduced blood pressure—both systolic and diastolic (p < 0.001). A distinct socioeconomic gradient was evident; the Tier 1 group had a higher proportion of individuals in the highest income bracket (50.5% for males, 39.9% for females) compared to the Participation-only group (45.7% for males, 32.3% for females; p < 0.001). Furthermore, the prevalence of hypertension and diabetes was notably lower in higher fitness tiers. Lifestyle behaviors also differed significantly, with a greater percentage of participants in the higher tiers adhering to both APA MSA guidelines (p < 0.001).
+Among seniors, the associations between fitness tiers and health characteristics were even more pronounced. While the mean age did not differ significantly across tiers for males (p = 0.865), females in higher fitness tiers tended to be slightly younger (p < 0.005). Consistent with the adult group, seniors in Tier 1 exhibited significantly lower BMI and a reduced prevalence of diabetes compared to the Participation-only group (49.7% vs. 57.3% for males; 41.7% vs. 49.4% for females; p < 0.05). Notably, a distinct socioeconomic gradient was observed: the highest income deciles were overrepresented in Tier 1, whereas those in lower income brackets were more prevalent in the Participation-only category. Furthermore, the Participation-only group showed the highest smoking rates and the lowest adherence to physical activity guidelines (p < 0.05).
+Mean values of physical fitness components by age-standardized comprehensive physical fitness tier
+The mean values of individual physical fitness components across the comprehensive fitness tiers for adults and seniors are presented in Tables 3 and 4, respectively.
+In the adult group, all measured fitness components showed a clear and significant dose-response relationship with the comprehensive tiers (p < 0.001). Participants in Tier 1 demonstrated the highest levels of muscular strength (relative hand grip strength), muscular endurance (curl-ups), and aerobic capacity (20-m shuttle run). For instance, Tier 1 males achieved a mean of 69.9% in relative hand grip strength and 54.4 times in curl-ups, whereas the 'Participation-only' group recorded significantly lower values of 55.5% and 35.8 times, respectively. Agility (10m*4 shuttle run) and power (broad jump) also exhibited consistent declines as the tier level decreased, confirming that the comprehensive tier effectively represents the overall physical performance of the adult population.
+A similar, highly significant trend was observed in the senior population across all components (p < 0.001). Notably, functional fitness markers essential for independent living—such as the 30-second chair stand (lower-body strength) and 6-minute walk (aerobic endurance)—showed substantial disparities between tiers. In Tier 1 males, the mean 6-minute walk distance was 696.1 m, which dropped to 552.1 m in the Participation-only group. Furthermore, balance and mobility indicators, including the 3-m up-and-go and figure-8 walk, showed that those in higher tiers performed these tasks significantly faster. These results indicate that the fitness tiers for seniors are closely aligned with clinical markers of functional capacity and mobility.
+Annual healthcare costs per person (won) across study population
+Association between Physical Fitness Tiers and Annual Healthcare Costs (USD Adjusted)
+The association between physical fitness tiers and annual healthcare costs, stratified by age group and sex, is presented in Table 5. Overall, a significant inverse dose-response relationship was observed (P-for-trend} < 0.001).
+In the adult population, the 'Participation-only' group incurred significantly higher costs compared to Tier 1. For adult males, the additional annual expenditure was 112,853 KRW (approx. 87.35 USD) (95% CI: 45.47 to 128.26 USD). Similarly, adult females in the lowest fitness category spent an additional 111,514 KRW (approx. 86.31 USD) (95% CI: 42.42 to 130.21 USD).
+The economic impact was substantially larger in the senior group. Senior males in the 'Participation-only' category incurred an additional 573,830 KRW (approx. 444.16 USD) (95% CI: 360.82 to 527.49 USD) per year compared to those in Tier 1. For senior females, the additional cost was 552,870 KRW (approx. 427.93 USD) (95% CI: 357.16 to 498.72 USD). Notably, even reaching Tier 3 was associated with a cost reduction of nearly 220,000 KRW (~170 USD) compared to the Participation-only group, highlighting the significant economic value of maintaining at least a basic level of physical fitness in older age.
+Association between Individual Fitness Components and Healthcare Costs in Adults
+Table 6 presents the estimated annual healthcare costs associated with individual physical fitness components in adults, fully adjusted for the same suite of covariates used in the primary analysis. Across most fitness attributes, a consistent trend was observed where lower performance levels were linked to increased medical spending, particularly in the 'Participation-only' group.
+Among the fitness components, muscular strength (hand grip strength) and muscular endurance (curl-ups) showed significant associations with healthcare costs. Adult males in the 'Participation-only' category for hand grip strength incurred an additional 106,373 KRW ($82.33 USD) compared to Tier 1, while females in the same category showed an even higher increase of 210,486 KRW ($162.92 USD). Similarly, poor performance in curl-ups was associated with significantly higher expenditures for both males (80,164 KRW / $62.05 USD) and females (119,245 KRW / $92.30 USD).
+Aerobic fitness, measured by the 20-m shuttle run, also demonstrated a clear economic impact. Females in the lowest tier of aerobic capacity incurred the highest additional cost among all measured components, at 161,278 KRW ($124.83 USD). Furthermore, explosive power (broad jump) and agility (10m*4 shuttle run) followed a similar pattern, with the 'Participation-only' groups consistently exhibiting the highest medical spending.
+Interestingly, flexibility (sit and reach) showed a relatively weaker and less consistent association with healthcare costs compared to strength and aerobic capacity. In some subgroups, the estimates for lower flexibility tiers did not reach the same level of statistical significance as other functional components. Overall, these findings suggest that while all fitness components contribute to health, muscular strength and aerobic capacity may serve as particularly potent predictors of healthcare utilization and expenditure in the adult population.
+Association between Individual Fitness Components and Healthcare Costs in Seniors
+Table 7 illustrates the annual healthcare costs associated with individual fitness components in seniors, fully adjusted for socioeconomic status, lifestyle factors, and clinical history. In the senior population, the economic impact of maintaining high physical function was remarkably pronounced, with nearly all functional markers showing a significant inverse dose-response relationship with medical spending.
+Lower muscular strength was a strong predictor of higher costs. Senior males in the 'Participation-only' group for hand grip strength incurred an additional 267,584 KRW ($207.12 USD), while females spent 274,431 KRW ($212.42 USD) more than the Tier 1 group. The impact of lower-body strength was even more significant; those with poor performance in the 30-second chair stand exhibited cost increases of 302,528 KRW ($234.16 USD) for males and 335,347 KRW ($259.57 USD) for females.
+Aerobic endurance, measured by the 6-minute walk, proved to be a critical economic indicator. Senior males and females in the lowest tier spent an additional 285,536 KRW ($221.01 USD) and 324,325 KRW ($251.04 USD), respectively. Furthermore, markers of dynamic balance and functional mobility—3-m up-and-go and Figure 8 walk—showed some of the largest cost disparities in the entire study. Notably, females in the 'Participation-only' group for the Figure 8 walk incurred an additional 398,770 KRW ($308.66 USD), highlighting the high medical burden associated with impaired mobility and fall risk in older age.
+Consistent with the adult data, flexibility (sit and reach) showed the most modest association with healthcare costs among all components. While lower flexibility was generally linked to higher costs, the magnitude of the increase was substantially lower than that of strength or mobility-related tasks.
+Discussion
+This study identifies a significant and independent association between objectively measured physical fitness and annual healthcare expenditures using a large-scale, population-based linked dataset from the Republic of Korea. Our findings elucidate a clear inverse dose-response relationship, where higher fitness tiers consistently correspond to reduced healthcare expenditures. Notably, the economic implications of fitness were particularly pronounced in the senior population. These results align with previous research by Sari (2009), which indicated that physical inactivity is associated with higher healthcare utilization.1 However, while earlier studies frequently relied on self-reported activity, our use of objective fitness metrics provides more granular and empirical evidence regarding the economic value of physiological capacity.
+In the senior group, the substantial expenditure disparity observed in functional mobility assessments—specifically the 3-m up-and-go and Figure 8 walk—is particularly noteworthy. These results align with the "Functional Threshold" theory, which posits that when an individual’s physical capacity falls below a critical level, the risk of catastrophic health events and subsequent medical utilization increases disproportionately. Our findings resonate with the work of Enright et al. (2003), who demonstrated that impaired functional capacity, such as a shorter 6-minute walk distance, serves as a powerful predictor of morbidity and mortality in older adults. The fact that seniors in the 'Participation-only' group incurred over $400 more in annual expenditures than those in Tier 1 underscores that impaired mobility is not merely a clinical concern but a primary driver of geriatric healthcare expenditures.
+Furthermore, our component-specific analysis revealed that muscular strength, as measured by handgrip strength, is a potent predictor of healthcare expenditures even within the adult population. This finding aligns with a growing body of literature, most notably the PURE study (Leong et al., 2015), which identified grip strength as a stronger predictor of cardiovascular mortality and hospital admission than systolic blood pressure. Consistent with these global trends, recent evidence from the Korean population has further confirmed that lower handgrip strength is significantly associated with increased physician visits and hospitalization (Shin & Park, 2020). The significant expenditure increase among adults with low grip strength in our study suggests that muscular fitness may function as a "physiological buffer" or an "insurance effect." Such physiological resilience may facilitate more rapid recovery from acute illnesses and reduce the requirement for intensive medical interventions, thereby mitigating the overall economic burden on the healthcare system.
+Several mechanisms may explain the observed association between high fitness and lower costs. High fitness is strongly correlated with improved metabolic profiles and reduced chronic systemic inflammation, which lowers the incidence of high-cost chronic diseases like hypertension and diabetes. Beyond disease prevention, fit individuals often exhibit greater physiological resilience. As Fried et al. (2001) described in their landmark paper on frailty, individuals with higher physical reserves are better equipped to maintain homeostasis when faced with external stressors, thereby avoiding the "cascading" medical expenses associated with frailty and multi-morbidity.
+A particularly compelling finding of this study is that skill-based fitness components—specifically agility, balance, and coordination—demonstrated predictive power for healthcare expenditures that was comparable, and in some instances superior, to traditional health-related fitness markers. While muscular strength and aerobic capacity are well-established indicators of metabolic health, our data reveal that tasks requiring complex neuromuscular control, such as the 3-m up-and-go and Figure 8 walk, are more acutely sensitive to the economic burden of aging. This is further supported by a recent systematic review highlighting that functional fitness components are critical determinants of long-term healthcare expenditure in older adults (Hernandez-Vicente et al., 2023). This suggests that the integration of cognitive and motor functions, rather than physiological capacity alone, may be a more critical determinant of an individual's ability to maintain independence and avoid high-cost medical events in later life.
+The pronounced impact of skill-based fitness, particularly among seniors, highlights the critical role of neuromuscular coordination in maintaining functional independence. Our results indicate that seniors in the lowest tier of the Figure 8 walk test incurred an additional $308.66 USD in annual expenditures—a figure that exceeds the cost disparity associated with handgrip strength alone. This suggests that skill-based fitness may serve as a more holistic proxy for "biological aging" and frailty than single-dimensional strength measures.
+The economic significance of these markers can be largely explained by their direct link to fall-related injuries, which represent some of the most costly medical events for the elderly, frequently necessitating emergency interventions and long-term rehabilitation. In this context, agility and balance serve as a primary "safety net" that preempts these high-cost incidents. This aligns with findings by Sherrington et al. (2019), who emphasized that balance-focused exercise is superior to resistance training alone in reducing both falls and subsequent medical expenditures. Notably, while Caspersen et al. (1985) originally distinguished skill-related components as being primarily essential for athletic performance, our findings provide a critical extension to this paradigm. We demonstrate that these components are not merely for athletic excellence, but have profound implications for geriatric public health and the long-term economic sustainability of national healthcare systems. By identifying skill-based fitness as a potent economic predictor, our study underscores the urgent need for public health initiatives like NFA100 to evolve beyond conventional walking programs and prioritize multimodal neuromotor training.
+These findings provide a strong rationale for integrating skill-based assessments into national health screenings. Unlike conventional markers like BMI, the NFA100 skill-based battery acts as an "early-warning system" that captures functional decline before it escalates into costly medical utilization. Utilizing these metrics allows for more targeted and cost-effective preventive interventions. A distinct strength of this study is the validation of the Comprehensive Physical Fitness Tier over isolated markers. By integrating strength, endurance, and neuromuscular skills, this holistic grading system more accurately reflects an individual’s physiological resilience and homeostatic capacity. Our results prove that such a multidimensional approach is a scientifically sound methodology for predicting public health burdens and healthcare expenditures.
+Ultimately, the NFA100 functions as a vital public health infrastructure rather than a mere sports event. The significant cost disparity observed across tiers demonstrates that objective fitness certification—not just participation—is essential for economic benefits. By improving fitness levels, the NFA100 simultaneously extends "healthy life expectancy" and ensures the fiscal sustainability of the national health insurance system, offering a measurable return on investment (ROI) through reduced medical utilization.
+Limitations and strengths
+A major strength of this study is the large-scale integration of objective fitness measurements from the NFA100 with national administrative claims data from the NHIS, encompassing over 150,000 participants. This nationwide linkage minimizes recall bias inherent in self-reported data and provides a robust estimate of the "real-world" economic impact of physical fitness. From a policy perspective, our findings indicate that national health strategies should prioritize transitioning sedentary or low-fitness individuals into at least the basic fitness tiers (Tier 3). Given that even moderate fitness levels are associated with meaningful expenditure reductions, public health investments in fitness programs could yield a high ROI by alleviating the long-term fiscal strain on the national insurance system.
+Despite these strengths, several limitations should be noted. First, the cross-sectional nature of this study limits our ability to establish a definitive causal relationship between fitness and healthcare costs; it is possible that individuals with lower expenditures were already healthier and thus more fit. Second, the NHIS data primarily reflects covered medical costs, potentially underestimating the total economic burden by excluding out-of-pocket expenses and non-covered services. Finally, as participants voluntarily applied for the NFA100 program, a self-selection bias may exist, as these individuals might be more health-conscious than the general population. Future longitudinal studies are warranted to track the long-term trajectory of healthcare costs following fitness interventions.
+Conclusion
+In conclusion, this study demonstrates that lower comprehensive physical fitness levels—particularly in skill-based components such as the 3-m up-and-go and Figure 8 walk—are independently associated with significantly higher annual healthcare expenditures among community-dwelling adults and seniors. The clear dose-response relationship between objective fitness tiers and medical costs underscores the potential of the National Fitness Award 100 (NFA100) as a robust framework for predicting and managing public health burdens. Our findings suggest that national initiatives prioritizing multifunctional fitness assessments can serve as pivotal policy tools, enhancing both population health and the fiscal sustainability of healthcare systems in an aging society.
+Author contributions
+Funding
+Data availability
+The datasets generated and/or analyzed during the current study are not publicly available due to data privacy laws, with access restricted to authorized personnel within a secured environment.
+Declarations
+Ethics approval and consent to participate
+This study was conducted in accordance with the Declaration of Helsinki and received approval from the Institutional Review Board (IRB) of the Korea Institute of Sport Science (IRB No. XXXX). To ensure data privacy and confidentiality, all datasets were fully anonymized by the National Health Insurance Service (NHIS) prior to being provided for analysis. The requirement for informed consent was waived by the IRB as the study utilized secondary, de-identified administrative data that posed no more than minimal risk to the participants. [NHIS No.xxx]
+Consent for publication
+Not applicable.
+Completing interests
+The authors declare no competing interests.
+Abbreviations
+ANOVAAnalysis of variance
+APAAerobic physical activity
+BMIBody mass index
+CIConfidence interval
+CPIConsumer price index
+MSAMuscular strength activity
+PUREProspective Urban and Rural Epidemiological
+TUGTimed up-and-go
+USDUnited States dollars
+Table 1. Characteristics of the ADULT participants by categories of age-standardized comprehensive physical fitness tier
+Variable
+Male
+Female
+Tier 1 (n=3,012)
+Tier 2 (n=7,808)
+Tier 3 (n=11,178)
+Participation only (n=35,816)
+P
+Tier 1 (n=2,268)
+Tier 2 (n=5,322)
+Tier 3 (n=9,303)
+Participation only (n=31,770)
+P
+Age (years)
+42.9 (12.7)
+42.7 (12.9)
+42.6 (12.8)
+43.2 (12.1)
+0.161
+43.6 (13.6)
+46.1 (13.2)
+46.6 (12.8)
+48.6 (12.1)
+0.336
+Metropolitan (%)
+38.2
+36.5
+36.8
+32.4
+<0.001
+33.3
+36.6
+35.1
+32.3
+0.523
+Income (%)
+<0.001
+<0.001
+High
+50.5
+48.9
+48.3
+45.7
+39.9
+35.4
+35.2
+32.3
+Middle
+34.3
+34.1
+32.4
+33.7
+32.2
+34.1
+31.9
+30.7
+Low
+15.2
+17.0
+19.3
+20.6
+27.9
+30.5
+32.9
+37.0
+Body mass index (kg/m2)
+23.3 (1.9)
+23.6 (2.2)
+23.4 (2.2)
+25.1 (2.8)
+<0.001
+20.8 (1.7)
+21.4 (1.9)
+21.4 (1.8)
+23.2 (3.0)
+<0.001
+Systolic blood pressure (mmHg)_
+121.0 (11.5)
+121.5 (11.8)
+121.6 (11.8)
+123.4 (12.3)
+<0.001
+113.1 (12.3)
+115.1 (13.2)
+115.0 (13.2)
+117.9 (13.8)
+<0.001
+Diastolic blood pressure (mmHg)
+74.7 (8.7)
+75.3 (8.9)
+75.5 (8.8)
+77.2 (9.1)
+<0.001
+70.1 (8.9)
+71.2 (9.4)
+71.3 (9.2)
+73.1(9.4)
+<0.001
+Prevalence
+Hypertension
+28.0
+30.2
+30.9
+37.9
+<0.001
+13.1
+17.8
+17.1
+23.9
+<0.001
+Diabetes
+26.2
+31.6
+33.1
+40.3
+<0.001
+18.8
+21.2
+22.3
+30.2
+<0.001
+Dyslipidemia
+9.9
+10.1
+10.3
+12.0
+<0.001
+13.3
+13.4
+14.4
+15.3
+0.054
+Family history
+Hypertension
+16.2
+16.5
+16.6
+18.5
+<0.001
+21.8
+23.9
+24.0
+25.1
+<0.001
+Diabetes
+12.6
+12.5
+12.7
+14.6
+<0.001
+17.1
+17.7
+17.5
+19.0
+<0.001
+Stroke
+8.1
+6.9
+6.4
+6.4
+0.008
+7.5
+8.1
+8.8
+10.0
+<0.001
+Heart disease
+5.3
+5.2
+5.7
+5.4
+0.054
+4.6
+6.2
+6.6
+7.0
+<0.001
+Alcohol consumption (%)
+<0.001
+<0.001
+≥1 time/month
+83.5
+83.9
+83.6
+81.5
+67.5
+63.3
+61.1
+53.6
+< 1 time/month
+16.5
+16.1
+16.4
+18.5
+32.5
+36.7
+38.9
+46.4
+Smoking status
+<0.001
+0.012
+Current smoker
+3.6
+4.8
+7.1
+11.1
+0.3
+0.5
+0.5
+0.6
+Former smoker
+42.8
+49.1
+48.7
+47.0
+3.2
+3.6
+3.0
+2.8
+Non-smoker
+50.6
+46.1
+44.2
+41.9
+96.5
+95.9
+96.5
+96.6
+Physical activity
+<0.001
+<0.001
+Meet APA guidelines
+78.2
+71.3
+64.8
+56.1
+72.1
+64.3
+56.0
+49.7
+Meet MSA guidelines
+77.6
+67.4
+59.3
+45.7
+55.4
+43.1
+33.2
+23.1
+* Data are mean (standard deviation) or %; Adjusted for examination year and age.
+** APA: aerobic physical activity; MSA: muscular strength activity.
+Table 2. Characteristics of the SENIOR participants by categories of age-standardized comprehensive physical fitness tier
+Variable
+Mae
+Female
+Tier 1 (n=1,497)
+Tier 2 (n=4,214)
+Tier 3 (n=6,231)
+Participation only (n=9,665)
+P
+Tier 1 (n=1,296)
+Tier 2 (n=4,265)
+Tier 3 (n=6,961)
+Participation only (n=13,445)
+P
+Age (years)
+72.9 (4.9)
+72.8 (4.8)
+72.5 (4.8)
+72.9 (4.9)
+0.865
+72.6 (4.7)
+72.0 (4.6)
+71.7 (4.7)
+71.8 (4.7)
+<0.001
+Metropolitan (%)
+59.0
+55.4
+53.0
+43.0
+<0.001
+54.4
+54.0
+49.6
+40.4
+<0.001
+Income (%)
+<0.001
+<0.001
+High
+51.2
+50.8
+47.7
+43.6
+57.7
+55.2
+52.3
+51.0
+Middle
+21.2
+21.9
+23.7
+20.1
+21.5
+22.5
+22.7
+21.9
+Low
+27.6
+27.3
+28.6
+36.3
+20.8
+22.3
+25.0
+27.1
+Body mass index (kg/m2)
+22.6 (2.3)
+23.2 (2.3)
+23.5 (2.5)
+23.9 (2.7)
+<0.001
+22.4 (2.2)
+22.9 (2.5)
+23.6 (2.7)
+24.2 (2.9)
+<0.001
+Systolic blood pressure (mmHg)_
+127.8 (13.9)
+128.6 (14.4)
+128.9 (14.0)
+129.0 (14.5)
+<0.001
+127.9 (14.7)
+128.2 (14.9)
+128.4 (14.7)
+129. (15.0)
+<0.001
+Diastolic blood pressure (mmHg)
+75.0 (9.1)
+75.3 (9.5)
+75.5 (9.4)
+75.5 (9.7)
+<0.001
+74.7 (9.4)
+74.7 (9.3)
+74.9 (9.5)
+75.3 (9.5)
+<0.001
+Prevalence
+Hypertension
+49.3
+51.3
+52.5
+52.3
+0.120
+47.6
+49.9
+50.3
+51.9
+0.005
+Diabetes
+49.7
+54.8
+54.6
+57.3
+41.7
+44.5
+47.3
+49.4
+Dyslipidemia
+5.5
+5.1
+5.6
+4.8
+0.430
+12.4
+10.4
+10.6
+10.9
+0.471
+Family history
+Hypertension
+13.1
+13.8
+14.0
+15.0
+0.103
+23.7
+21.1
+21.6
+21.5
+0.322
+Diabetes
+7.6
+9.0
+9.3
+10.6
+0.001
+11.5
+13.2
+13.0
+14.1
+0.033
+Stroke
+10.1
+8.7
+9.4
+10.0
+0.129
+14.6
+12.7
+11.9
+11.9
+0.013
+Heart disease
+3.4
+3.6
+3.9
+3.6
+0.811
+5.0
+5.6
+5.2
+4.9
+0.472
+Alcohol consumption (%)
+<0.001
+0.001
+≥1 time/month
+54.7
+55.6
+55.7
+51.8
+17.9
+18.3
+18.4
+16.0
+< 1 time/month
+45.3
+44.4
+44.3
+48.2
+82.1
+81.7
+81.6
+84.0
+Smoking status
+<0.001
+0.012
+Current smoker
+1.1
+1.8
+3.0
+4.5
+0.3
+0.5
+0.5
+0.6
+Former smoker
+48.1
+49.8
+51.4
+49.9
+3.2
+3.6
+3.0
+2.8
+Non-smoker
+50.8
+48.4
+45.6
+45.6
+96.5
+95.9
+96.5
+96.6
+Physical activity
+Meet APA guidelines
+71.8
+68.6
+65.4
+59.0
+<0.001
+72.1
+64.3
+56.0
+49.7
+<0.001
+Meet MSA guidelines
+57.2
+47.4
+43.6
+34.4
+<0.001
+55.4
+43.1
+33.2
+23.1
+<0.001
+* Data are mean (standard deviation) or %; Adjusted for examination year and age.
+** APA: aerobic physical activity; MSA: muscular strength activity
+Table 3. Mean values of ADULT physical fitness components by age-standardized comprehensive physical fitness tier
+Variable
+Male
+Female
+Tier 1 (n=3,012)
+Tier 2 (n=7,808)
+Tier 3 (n=11,178)
+Participation only (n=35,816)
+P
+Tier 1 (n=2,268)
+Tier 2 (n=5,322)
+Tier 3 (n=9,303)
+Participation only (n=31,770)
+P
+Relative hand grip strength (%)
+69.9 (7.8)
+65.1 (7.9)
+62.3 (8.5)
+55.5 (10.8)
+<.001
+53.8 (6.8)
+49.3 (7.0)
+46.8 (7.2)
+40.9 (8.7)
+<.001
+Curl-up (times)
+54.4 (9.4)
+49.1 (10.1)
+44.9 (10.3)
+35.8 (12.7)
+<.001
+39.3 (10.2)
+32.4 (10.4)
+26.4 (10.3)
+17.3 (11.8)
+<.001
+20-m shuttle run (times)
+65.4 (18.8)
+57.2 (19.4)
+49.3 (18.2)
+33.2 (18.4)
+<.001
+35.0 (12.5)
+26.8 (10.8)
+21.0 (9.5)
+14.7 (8.0)
+<.001
+Sit and reach (cm)
+19.8 (4.0)
+16.0 (4.7)
+12.7 (5.6)
+5.8 (9.3)
+<.001
+23.9 (3.4)
+20.5 (4.0)
+17.7 (4.5)
+12.0 (8.5)
+<.001
+10m*4 shuttle run (second)
+10.3 (1.2)
+10.9 (1.3)
+11.3 (1.5)
+12.1 (2.2)
+<.001
+12.5 (1.5)
+13.3 (1.5)
+14.0 (1.7)
+15.0 (2.4)
+<.001
+Broad jump (cm)
+229.3 (24.6)
+217.7 (25.8)
+210.1 (26.9)
+193.8 (31.8)
+<.001
+167.1 (23.6)
+154.4 (24.3)
+143.7 (25.4)
+130.0 (27.5)
+<.001
+Table 4. Mean values of SENIOR physical fitness components by age-standardized comprehensive physical fitness tier
+Variable
+Male
+Female
+Tier 1 (n=1,497)
+Tier 2 (n=4,214)
+Tier 3 (n=6,231)
+Participation only (n=9,665)
+P
+Tier 1 (n=1,296)
+Tier 2 (n=4,265)
+Tier 3 (n=6,961)
+Participation only (n=13,445)
+P
+Relative hand grip strength (%)
+59.5 (7.0)
+54.8 (7.7)
+51.1 (8.3)
+45.5 (10.5)
+<.001
+45.3 (6.4)
+41.4 (6.6)
+38.5 (7.2)
+33.4 (9.1)
+<.001
+30-second chair strand (times)
+28.9 (4.7)
+25.3 (4.9)
+22.3 (5.2)
+18.3 (5.9)
+<.001
+26.4 (5.3)
+22.6 (5.0)
+19.7 (4.9)
+15.8 (5.5)
+<.001
+6-minute walk (m)
+696.1 (72.3)
+635.9 (59.4)
+616.7 (53.0)
+552.1 (34.5)
+<.001
+646.3 (50.9)
+608.7 (64.9)
+576.8 (72.3)
+520.8 (116.9)
+<.001
+Sit and reach (cm)
+14.8 (4.6)
+10.5 (5.3)
+6.6 (6.0)
+-0.8 (9.6)
+<.001
+21.7 (3.7)
+18.4 (4.3)
+15.5 (5.1)
+9.3 (8.3)
+<.001
+3-m up-and-go (second)
+4.7 (0.6)
+5.2 (0.8)
+5.6 (0.9)
+6.7 (2.2)
+<.001
+5.1 (0.7)
+5.7 (0.9)
+6.2 (1.1)
+7.5 (2.6)
+<.001
+Figure 8 walk (second)
+19.5 (2.5)
+21.6 (3.1)
+23.4 (3.9)
+28.2 (8.5)
+<.001
+21.0 (3.0)
+23.5 (3.7)
+25.4 (4.5)
+30.3 (9.4)
+<.001
+Table 5. Annual healthcare costs per person (won) across study population
+Fitness category
+ALL
+Male
+Female
+n
+Estimate
+95% CI
+n
+Estimate
+95% CI
+Tier 1
+4,509
+3,564
+Tier 2
+12,022
+42,437
+-70,813 to 155,461
+9,587
+42,192
+-92,761 to 177,515
+Tier 3
+17,409
+110,495
+59,116 to 161,874
+16,264
+104,505
+45,958 to 163,052
+Participation only
+45,481
+238,061
+165,225 to 279,373
+45,215
+206,478
+165,133 to 279,465
+Fitness category
+ADULT
+Male
+Female
+N
+Estimate
+95% CI
+n
+Estimate
+95% CI
+Tier 1
+3,012
+2,268
+Tier 2
+7,808
+12,650
+-47,156 to 64,820
+5,322
+-2,075
+-66,076 to 47,532
+Tier 3
+11,178
+37,178
+-23,989 to 95,306
+9,303
+36,251
+-36,993 to 98,730
+Participation only
+35,816
+112,853
+58,746 to 165,708
+31,770
+111,514
+54,801 to 168,227
+Fitness category
+SENIOR
+Male
+Female
+N
+Estimate
+95% CI
+n
+Estimate
+95% CI
+Tier 1
+1,497
+1,296
+Tier 2
+4,214
+152,410
+63,332 to 241,634
+4,265
+152,555
+63,126 to 241,840
+Tier 3
+6,231
+289,312
+203,736 to 374,900
+6,961
+289,324
+207,645 to 370,991
+Participation only
+9,665
+573,830
+466,164 to 681,496
+13,445
+552,870
+461,438 to 644,302
+Table 6. Annual healthcare costs per person (won) by fitness components in ADULT
+Fitness category
+All
+Male
+Female
+GRIP
+n
+Estimate
+95% CI
+n
+Estimate
+95% CI
+n
+Estimate
+95% CI
+Tier 1
+Tier 2
+25,256
+1,124 to 51,635
+5,889
+-26,944 to 38,722
+50,573
+7,376 to 93,770
+Tier 3
+42,436
+18,598 to 66,273
+32,498
+2,994 to 6,2002
+56,127
+16,873 to 95,382
+Participation only
+156,751
+128,625 to 184,876
+106,373
+70,236 to 142,510
+210,486
+166,118 to 254,819
+Curl-up
+n
+Estimate
+95% CI
+n
+Estimate
+95% CI
+n
+Estimate
+95% CI
+Tier 1
+Tier 2
+17,017
+-8,189 to 42,222
+22,978
+-54,586 to 83,251
+9,599
+-33,576 to 52,773
+Tier 3
+31,385
+6,074 to 56,696
+23,615
+-30,089 to 101,346
+46,369
+4,500 to 88,237
+Participation only
+97,110
+73,070 to 12,1149
+80,164
+43,440 to 171,270
+119,245
+81,327 to 157,164
+Fitness category
+All
+Male
+Female
+20-m shuttle run
+n
+Estimate
+95% CI
+n
+Estimate
+95% CI
+n
+Estimate
+95% CI
+Tier 1
+Tier 2
+39,283
+-14,903 to 93,469
+14,333
+-54,586 to 83,251
+58,656
+-18,066 to 135,378
+Tier 3
+41,620
+-8,755 to 91,994
+35,629
+-30,089 to 101,346
+74,627
+-9,606 to 158,860
+Participation only
+132,107
+81,940 to 182,275
+107,355
+43,440 to 171,270
+161,278
+83,323 to 239,233
+Sit and reach
+Tier 1
+Tier 2
+464
+-20,848 to 24,646
+-14,042
+-45,241 to 17,157
+22,342
+-18,737 to 63,422
+Tier 3
+5,224
+-25,574 to 31,297
+17,449
+-14,835 to 49,732
+-6,363
+-49,225 to 36,498
+Participation only
+6,224
+-17,335 to 29,783
+-8,921
+-38,456 to 20,613
+30,457
+-7,696 to 62,611
+10m*4 shuttle run
+Tier 1
+Tier 2
+19,010
+-14,293 to 52,313
+15,570
+-25,086 to 56,226
+26,299
+-27,416 to 80,013
+Tier 3
+78,992
+39,692 to 118,291
+52,783
+2,497 to 103,069
+106,526
+46,123 to 166,930
+Participation only
+139,308
+97,994 to 180,623
+151,809
+95,946 to 207,672
+129,189
+68,326 to 190,051
+Broad jump
+Tier 1
+Tier 2
+6,688
+-17,644 to 31,019
+24,411
+-4,808 to 53,630
+-15,800
+-57,473 to 25,872
+Tier 3
+44,654
+17,690 to 71,617
+48,817
+14,834 to 82,798
+43,967
+656 to 87,278
+Participation only
+162,634
+135,130 to 190,318
+153,713
+116,933 to 190,492
+163,699
+122,000 to 205,398
+Table 7. Annual healthcare costs per person (won) by fitness components in SENIOR
+Fitness category
+All
+Male
+Female
+Grip
+n
+Estimate
+95% CI
+n
+Estimate
+95% CI
+n
+Estimate
+95% CI
+Tier 1
+Tier 2
+82,997
+30,094 to 135,900
+74,530
+-1,781 to 150,843
+95,323
+21,903 to 168,744
+Tier 3
+177,894
+117,296 to 238,491
+216,283
+128,641 to 303,925
+142,340
+58,450 to 226,229
+Participation only
+269,523
+201,468 to 337,577
+267,584
+165,255 to 369,913
+274,431
+183,601 to 365,261
+30-second chair stand
+Tier 1
+Tier 2
+97,542
+43,813 to 151,272
+55,885
+-29,236 to 141,007
+128,248
+53,548 to 202,947
+Tier 3
+104,559
+47,606 to 161,513
+68,976
+-8,395 to 146,346
+151,371
+74,702 to 228,040
+Participation only
+315,043
+249,111 to 380,976
+302,528
+189,637 to 415,418
+335,347
+253,827 to 416,867
+6-minute walk
+Tier 1
+Tier 2
+117,528
+68,344 to 166,712
+74,037
+3,470 to 144,333
+155,830
+75,765 to 233,710
+Tier 3
+140,054
+80,922 to 199,186
+123,677
+35,992 to 211,361
+164,804
+95,898 to 235,895
+Participation only
+309,729
+241,472 to 371,586
+285,536
+168,761 to 382,309
+324,325
+236,570 to 402,080
+Fitness category
+All
+Male
+Female
+Sit and reach
+n
+Estimate
+95% CI
+n
+Estimate
+95% CI
+n
+Estimate
+95% CI
+Tier 1
+Tier 2
+22,066
+-33,503 to 77,634
+-12,085
+-93,187 to 69,017
+56,368
+-19,778 to 132,514
+Tier 3
+-4,627
+-62,968 to 53,714
+-58,290
+-142,081 to 25,500
+49,704
+-31,559 to 130,967
+Participation only
+37,692
+-17,148 to 92,532
+-14,232
+-95,097 to 66,633
+86,499
+11,981 to 161,017
+3-m up-and-go
+Tier 1
+Tier 2
+148,224
+97,782 to 198,705
+128,456
+53,217 to 203,694
+170,506
+102,557 to 238,455
+Tier 3
+281,968
+213,626 to 320,310
+234,005
+116,891 to 301,117
+320,027
+231,552 to 378,503
+Participation only
+335,495
+261,213 to 389,777
+300,800
+179,840 to 381,759
+354,936
+271,088 to 408,784
+Figure 8 walk
+Tier 1
+Tier 2
+105,802
+53,620 to 155,284
+81,298
+9,478 to 153,117
+130,771
+62,348 to 199,195
+Tier 3
+216,783
+155,817 to 277,749
+199,913
+107,035 to 292,789
+234,713
+153,762 to 315,665
+Participation only
+388,776
+321,284 to 456,268
+381,086
+275,584 to 486,587
+398,770
+310,746 to 486,794
+Supplement 1. NFA100 등급 산정 규칙(요약표/flow)
+성인, 노인
+참여-only – 무엇을 의미하는지(최소기준 미달=건강제한 가능성)

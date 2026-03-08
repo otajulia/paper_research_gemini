@@ -1,0 +1,20 @@
+﻿# Context Snapshot: cpf-healthcare-expenditure
+- Timestamp (UTC): 20260308T011726Z
+- Task statement: Analyze the draft paper and design a strategy to reach acceptance-level in top global journals, with no physical experiments; only data processing/theoretical novelty; include venue scan up to 2020.
+- Desired outcome: (1) journal-field fit, (2) acceptance strategy, (3) data/theory-only upgrade plan, (4) acceptance-grade quantitative/theoretical targets and experiment design.
+- Known facts/evidence:
+  - National linked cohort (NFA100 + NHIS), n=154,051, 2015-2022.
+  - Main model: GLM gamma log-link; strong inverse tier-cost dose-response.
+  - Stronger effect sizes in older adults; skill-based mobility components particularly predictive.
+- Constraints:
+  - No new physical/lab intervention.
+  - Must rely on existing/derivable data processing, causal/statistical design, and theory.
+  - Must reference related journals/conferences up to 2020.
+- Unknowns/open questions:
+  - Exact data availability granularity and linkage quality diagnostics.
+  - Missingness patterns, zero-cost handling details, robustness suite completeness.
+  - External validation possibilities (without new physical data collection).
+- Likely touchpoints:
+  - Manuscript methods/results/discussion structure.
+  - Statistical analysis pipeline and reproducibility package.
+  - Journal positioning and claim calibration.
